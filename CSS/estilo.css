@@ -1,0 +1,22 @@
+.alinear{
+ display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; 
+    color: dimgray
+}
+
+.estil{
+  margin: 0;
+    padding: 0;
+background-color:cornsilk;
+list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+table, td {
+    border: 1px solid black;
+    text-align: right
+}
