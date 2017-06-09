@@ -24,13 +24,15 @@ obj.paises.sort(function(a,b){
 var table = document.getElementById("tabla");
  for(var i=0; i< obj.paises.length; i++){
     console.log("Hola");
-     var row = table.insertRow(1);
+   var row = table.insertRow(i+1);
     var nombre = row.insertCell(0);
-    var pais = row.insertCell(1);
-     var ciudad = row.insertCell(2);
+     var ciudad = row.insertCell(1);
+    var pais = row.insertCell(2);
+     
  nombre.innerHTML = obj.paises[i].Name;
+     ciudad.innerHTML = obj.paises[i].City;   
   pais.innerHTML = obj.paises[i].Country;    
-ciudad.innerHTML = obj.paises[i].City;    
+    
   
         
 
